@@ -6,6 +6,29 @@
 
 .calculator {
     width: 300px;
+    background-color: #aaa;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.display {
+    background-color: #eee;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.previous {
+    min-height: 32px;
+    font-size: 20px;
+}
+
+.current {
+    min-height: 64px;
+    font-size: 40px;
 }
 
 .buttons-grid {
@@ -17,7 +40,9 @@
 .btn {
     padding: 20px;
     font-size: 15px;
-
+    background-color: #eee;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .span-two {
